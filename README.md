@@ -1,7 +1,6 @@
 # Dikdasmen Ecourse
 This is a ecourse website for Dikdasmen.
-### Prerequisites
-Requirement
+### Requirement
 ```
 PPH 5
 Mysql
@@ -22,7 +21,7 @@ if(){
 * [Codeigniter](https://codeigniter.com) - The web framework used
 * [Tinymce](https://www.tiny.cloud/) - Text Editor
 ## Authors
-* **Karen DK** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Karen DK** - *practical work* - [Dikdasmen PWM](http://dikdasmenpwmdiy.or.id/)
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
