@@ -1,0 +1,13 @@
+USER ACCOUNT
+
+=admin
+admin
+admin
+
+=guru
+guru
+guru
+
+=murid
+murid
+murid

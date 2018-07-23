@@ -1,0 +1,32 @@
+<div class="container">
+	<br><br>
+	<?php foreach($detail_materi as $data)
+    	{ 
+    ?>
+    <div class="panel panel-default col-sm-12 col-md-9">
+	      	<div class="panel-body">
+	      		<img src="<?=base_url('asset/materi/gambar/').$data->gambar;?>" class="img-responsive">
+	        		<h3><?=$data->judul_materi;?></h3>
+	      		<hr>
+	      		<i><h5 style="font-size: 11pt;" align="right">Penulis: <?=$data->nama_lengkap;?> | <?=$data->tgl_dibuat;?></h5></i>
+	        		<p align="justify"><?=$data->materi;?></p>
+	        		<p>
+	        			<h3>Download Materi</h3>
+	        			<a href="<?=base_url('materi/download/'.$data->file);?>"><?=$data->file;?></a>
+	        		</p>
+	  	</div>
+	</div>
+    <?php
+    	}
+    ?>
+
+
+    
+	<div class="panel panel-default col-sm-12 col-md-9">
+	  	<div class="panel-body">	      	
+	       	<h3>Komentar</h3>
+			<hr>
+			<i>Belum ada Komentar..</i>
+	   	</div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+<style>
+    .user {
+        position: relative;
+        width: 240px;
+        height: 240px;
+        
+    }
+    .link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    .user-info {
+        position: absolute;
+        bottom: 0;
+    }
+    .h2 {
+        background: rgba(0,0,0,0.7);
+        color: #fff;
+        padding: 8px;
+        margin: 0;
+    }
+    .bio-reveal {
+        overflow: hidden;
+        max-height: 0;
+        background: rgba(183, 191, 185, 0.95);
+        -webkit-transition: all 0.7s linear;
+        -moz-transition: all 0.7s linear;
+        -o-transition: all 0.7s linear;
+        -ms-transition: all 0.7s linear;
+        transition: all 0.7s linear;
+    }
+    .paragraf {
+    	width:240px;
+        color: #333;
+        padding: 8px;
+        margin: 0;
+    }
+    .link:hover .bio-reveal, a:focus .bio-reveal {
+        max-height: 240px;
+    }
+</style>
