@@ -1,5 +1,7 @@
 # Dikdasmen Ecourse
 This is a ecourse website for Dikdasmen.
+## Platform
+Web
 ### Requirement
 ```
 PPH 5
