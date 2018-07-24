@@ -18,10 +18,11 @@ if(){
 }
 ```
 ## Built With
-* [Codeigniter](https://codeigniter.com) - The web framework used
+* [Codeigniter](https://codeigniter.com/) - The php framework used
+* [Bootstrap](https://getbootstrap.com/) - The css framework used
+* [Material Kit](https://www.creative-tim.com/) - The web theme
 * [Tinymce](https://www.tiny.cloud/) - Text Editor
 ## Authors
 * **Karen DK** - *practical work* - [Dikdasmen PWM](http://dikdasmenpwmdiy.or.id/)
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
