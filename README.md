@@ -24,4 +24,3 @@ PHP
 * **Karen DK** - *practical work* - [Dikdasmen PWM](http://dikdasmenpwmdiy.or.id/)
 ## License
 This project is licensed under the MIT License
->>>>>>> b49cbd6c866268856a0bbb2b12b662994020cd99
