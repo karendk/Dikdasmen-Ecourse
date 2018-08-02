@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Dikdasmen-Ecourse
-=======
 # Dikdasmen Ecourse
 This is a ecourse website for Dikdasmen.
 ## Platform
