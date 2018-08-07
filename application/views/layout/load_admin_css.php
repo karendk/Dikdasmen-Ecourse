@@ -67,6 +67,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    -moz-opacity: 0.8;
 		  height: auto;
 		}
+		/*PRELOADER*/
+		#preloader {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			z-index: 99999;
+			width: 100%;
+			height: 100%;
+			overflow: visible;
+    		background: #fafafa none repeat scroll 0% 0%;
+		}
+		.socket {
+			position: relative;
+			top: 40%;
+			width: auto;
+			height: auto;
+			margin: auto;
+			display:block;
+		}
+		.socket img{
+			display:block;
+			margin:auto;
+			width: 50px;
+			height: 50px;
+		}
+		/*PRELOADER END*/
     </style>
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -74,5 +100,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 	
 	<script src="<?=base_url('style/js/jquery.js');?>" type="text/javascript" ></script>
+	<script src="<?=base_url('style/js/makus.js');?>" type="text/javascript" ></script>
 </head>
-<body>
+<body>	
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="socket">
+			<img src="<?=base_url('asset/preloader.gif')?>" alt="">
+		</div>
+	</div>
+	<!-- PRELOADER END -->
