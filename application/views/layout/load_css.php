@@ -20,6 +20,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 	
 	<script src="<?=base_url('style/js/jquery.js');?>" type="text/javascript" ></script>
+	<script src="<?=base_url('style/js/makus.js');?>" type="text/javascript" ></script>
 </head>
-<body>
+<body>	
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="socket">
+			<img src="<?=base_url('asset/preloader.gif')?>" alt="">
+		</div>
+	</div>
+	<!-- PRELOADER END -->
   
