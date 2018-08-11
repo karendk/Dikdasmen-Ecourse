@@ -29,21 +29,11 @@ class Beranda extends CI_Controller{
 
 	public function home(){
 		$teks['title']="Dikdasmen - E-Course";
+		$this->load->view("layout/load_css", $teks);
 		$this->load->view("layout/load_css", $teks);	
 		$this->navbar();
 	    //return the data in view  
 		$this->load->view("beranda_vw");
-		$this->load->view("layout/footer");
-		$this->load->view("layout/load_js");
-	} 
-	public function enkripsi(){
-		$teks['title']="CODE OF TALOS";
-		$this->load->view("layout/load_css", $teks);		
-		$this->navbar();
-	    //return the data in view  
-		$this->load->view("enkripsi_vw");
-		$this->load->view("layout/encrypt");
-		$this->load->view("layout/decrypt");
 		$this->load->view("layout/footer");
 		$this->load->view("layout/load_js");
 	} 
