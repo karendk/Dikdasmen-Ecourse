@@ -1,3 +1,4 @@
 # CI files to get ignored while pushing
-**/config
-**/database
+/application/config/config.php
+/application/config/database.php
+.htaccess
