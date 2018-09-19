@@ -30,7 +30,6 @@ class Beranda extends CI_Controller{
 	public function home(){
 		$teks['title']="Dikdasmen - E-Course";
 		$this->load->view("layout/load_css", $teks);
-		$this->load->view("layout/load_css", $teks);	
 		$this->navbar();
 	    //return the data in view  
 		$this->load->view("beranda_vw");

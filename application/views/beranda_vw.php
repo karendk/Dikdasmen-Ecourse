@@ -1,4 +1,4 @@
-<link href="<?=base_url('style/css/animate..min.css');?>" rel="stylesheet">
+<link href="<?=base_url('style/css/animate.min.css');?>" rel="stylesheet">
 <!-- HEADER -->
 <div class="header" <?="style='background: url(".base_url('asset/material.jpg').") repeat center center;'";?> >
     <div class="container">
