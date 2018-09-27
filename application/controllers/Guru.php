@@ -383,7 +383,8 @@ class Guru extends CI_Controller{
 	    	$config2['image_library'] = 'gd2'; 
             $config2['source_image'] = $this->upload->upload_path.$this->upload->file_name;
             $config2['new_image'] = './asset/materi/gambar'; // folder tempat menyimpan hasil resize
-            $config2['maintain_ratio'] = TRUE;
+			$config2['maintain_ratio'] = TRUE;
+			$config2['quality'] = '60%';  
             $config2['width'] = 800; //lebar setelah resize menjadi 100 px
             $config2['height'] = 800; //lebar setelah resize menjadi 100 px
             $this->load->library('image_lib',$config2);
